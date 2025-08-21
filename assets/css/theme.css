@@ -1,0 +1,1 @@
+:root{--bg:#0b1220;--card:#121a2a;--text:#e7edf7;--brand:#4da3ff}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui}nav a{margin:0 8px}.container{max-width:1100px;margin:0 auto;padding:24px}.card{background:var(--card);padding:16px;border-radius:12px}
