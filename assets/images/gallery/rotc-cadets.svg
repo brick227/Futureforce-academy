@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500' viewBox='0 0 800 500'>
+<rect width='800' height='500' fill='#0f234c'/>
+<g fill='#C6A664'>
+ <rect x='80' y='300' width='120' height='140' rx='14'/>
+ <rect x='240' y='280' width='120' height='160' rx='14'/>
+ <rect x='400' y='290' width='120' height='150' rx='14'/>
+ <rect x='560' y='310' width='120' height='130' rx='14'/>
+</g>
+<text x='80' y='120' fill='#E6EEF9' font-size='26' font-family='Arial' font-weight='700'>ROTC & Leadership Labs</text>
+<text x='80' y='160' fill='#9FB3C8' font-size='18' font-family='Arial'>Team drills • Land nav • Briefing skills</text>
+</svg>

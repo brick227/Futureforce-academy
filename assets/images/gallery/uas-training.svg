@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500' viewBox='0 0 800 500'>
+<rect width='800' height='500' fill='#0f234c'/>
+<g transform='translate(180,160)'>
+ <circle cx='0' cy='0' r='38' fill='#00D1FF'/>
+ <circle cx='220' cy='0' r='38' fill='#00D1FF'/>
+ <circle cx='0' cy='140' r='38' fill='#00D1FF'/>
+ <circle cx='220' cy='140' r='38' fill='#00D1FF'/>
+ <rect x='-20' y='-20' width='260' height='180' rx='18' fill='rgba(198,166,100,.25)' stroke='#C6A664' stroke-width='2'/>
+</g>
+<text x='40' y='460' fill='#E6EEF9' font-size='22' font-family='Arial' font-weight='700'>UAS Training — Part 107 prep & field ops</text>
+</svg>

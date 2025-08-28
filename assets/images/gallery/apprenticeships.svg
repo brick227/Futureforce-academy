@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500' viewBox='0 0 800 500'>
+<rect width='800' height='500' fill='#0f234c'/>
+<g>
+ <rect x='80' y='120' width='640' height='260' rx='16' fill='rgba(255,255,255,.06)' stroke='rgba(255,255,255,.25)'/>
+ <text x='120' y='200' fill='#E6EEF9' font-size='24' font-family='Arial' font-weight='700'>Paid Apprenticeships</text>
+ <text x='120' y='240' fill='#9FB3C8' font-size='18' font-family='Arial'>UAS Security • Aerial Media • Inspections • IT & Cyber</text>
+</g>
+</svg>

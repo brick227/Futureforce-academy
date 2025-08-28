@@ -1,0 +1,10 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='500' viewBox='0 0 800 500'>
+<defs><linearGradient id='bg' x1='0' x2='1'><stop stop-color='#0B1B3B'/><stop offset='1' stop-color='#0f234c'/></linearGradient></defs>
+<rect width='800' height='500' fill='url(#bg)'/>
+<g fill='#00D1FF' opacity='.85'>
+  <circle cx='120' cy='200' r='40'/><rect x='80' y='240' width='80' height='110' rx='10'/>
+  <circle cx='260' cy='180' r='40'/><rect x='220' y='220' width='80' height='130' rx='10'/>
+  <circle cx='400' cy='210' r='40'/><rect x='360' y='250' width='80' height='100' rx='10'/>
+</g>
+<text x='40' y='460' fill='#E6EEF9' font-size='22' font-family='Arial' font-weight='700'>STEM Lab — coding, sensors, teamwork</text>
+</svg>
