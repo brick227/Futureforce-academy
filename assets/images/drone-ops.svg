@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='480' viewBox='0 0 800 480'>
+<rect width='800' height='480' fill='#0f234c'/>
+<g transform='translate(200,160)'>
+<circle cx='0' cy='0' r='36' fill='#00D1FF'/>
+<circle cx='200' cy='0' r='36' fill='#00D1FF'/>
+<circle cx='0' cy='120' r='36' fill='#00D1FF'/>
+<circle cx='200' cy='120' r='36' fill='#00D1FF'/>
+<rect x='-10' y='-10' width='220' height='140' rx='18' fill='rgba(198,166,100,.25)' stroke='#C6A664'/>
+</g>
+<text x='40' y='440' fill='#E6EEF9' font-size='22' font-family='Arial'>Drone Operation & Safety • Airspace • Weather • Remote ID</text>
+</svg>

@@ -1,21 +1,24 @@
-# Future Force Academy Website
+# Future Force Application (Static Site)
 
-Upload this repo to GitHub and enable Pages.
+A lightweight, GitHub‑ready web page for the **Future Force** program (K‑19 → Career).  
+Includes dark‑blue branding, cyan & gold accents, and SVG images.
 
 ## Structure
-- index.html (Home)
-- pages/k5.html
-- pages/6-8.html
-- pages/9-12.html
-- pages/after-hs.html
-- style.css
+```
+/assets/css/styles.css   # Theme + layout
+/assets/js/main.js       # Smooth scroll
+/assets/images/*.svg     # Brand + placeholders
+index.html               # Main page
+```
 
+## Local Preview
+Open `index.html` in your browser.
 
-## Assets/Images
-The `assets/images/` folder includes placeholder images you can swap out later:
-- hero_home.png, hero_k5.png, hero_6_8.png, hero_9_12.png, hero_after_hs.png
-- badge_ai.png, badge_coding.png, badge_drones.png, badge_medical.png
-- background_circuits.png
-- futureforce-logo.svg, logo_lockup.png
+## Deploy to GitHub Pages
+1. Create a repo (e.g., `future-force`).
+2. Push these files to the repo root or `docs/` folder.
+3. In GitHub: **Settings → Pages → Source**: select `main` branch (`/root` or `/docs`).
 
-Use these in your pages by referencing: `<img src="../assets/images/hero_6_8.png" alt="...">`.
+## Customize
+- Replace SVGs in `assets/images/` with your photos (same file names or update the `src` paths).
+- Tweak colors in `assets/css/styles.css` under `:root { ... }`.

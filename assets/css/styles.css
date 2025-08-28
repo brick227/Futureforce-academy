@@ -1,0 +1,78 @@
+/* Future Force — Site Theme */
+:root{
+  --bg:#0B1B3B;          /* dark navy */
+  --bg-soft:#0f234c;
+  --brand:#00D1FF;       /* cyan accent */
+  --gold:#C6A664;
+  --ink:#E6EEF9;
+  --muted:#9FB3C8;
+  --card:#101f44;
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+  --radius: 1.2rem;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family: ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,"Noto Sans",sans-serif;
+  background: linear-gradient(180deg,var(--bg), var(--bg-soft));
+  color:var(--ink);
+  line-height:1.6;
+}
+
+a{color:var(--brand);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.container{max-width:1200px;margin:0 auto;padding:2rem 1.25rem}
+.grid{display:grid;gap:1.25rem}
+.btn{
+  display:inline-flex;align-items:center;gap:.5rem;
+  background:var(--brand); color:#051225; font-weight:700;
+  padding:.85rem 1.1rem; border-radius:.8rem; border:0; cursor:pointer;
+  box-shadow: var(--shadow);
+}
+.btn.secondary{background:transparent;color:var(--ink);border:1px solid rgba(255,255,255,.2)}
+
+nav{
+  position:sticky; top:0; z-index:10;
+  backdrop-filter:saturate(180%) blur(12px);
+  background:rgba(11,27,59,.7); border-bottom:1px solid rgba(255,255,255,.06);
+}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem}
+.logo{display:flex;align-items:center;gap:.75rem}
+.logo img{width:42px;height:42px}
+.logo span{font-weight:900;letter-spacing:.5px;font-size:1.15rem}
+
+.hero{
+  padding:4.5rem 0 2rem 0;
+  background: radial-gradient(1200px 500px at 20% -10%, rgba(0,209,255,.15), transparent 70%),
+              radial-gradient(1200px 600px at 100% 0%, rgba(198,166,100,.12), transparent 70%);
+}
+.hero .title{font-size:clamp(2rem, 3vw + 1rem, 3.25rem); line-height:1.1; font-weight:900; margin:.2rem 0}
+.hero .subtitle{color:var(--muted);max-width:70ch;margin-bottom:1.25rem}
+
+.cards{grid-template-columns: repeat(auto-fit,minmax(260px,1fr))}
+.card{
+  background:var(--card);
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:var(--radius);
+  padding:1.25rem;
+  box-shadow:var(--shadow);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card:hover{ transform: translateY(-4px); box-shadow:0 16px 40px rgba(0,0,0,.45) }
+.card h3{margin-top:0}
+
+.badges{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem}
+.badge{background:rgba(255,255,255,.06); padding:.35rem .6rem;border-radius:.6rem;font-size:.8rem;border:1px solid rgba(255,255,255,.08)}
+
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:1rem;margin:2rem 0 1rem}
+.section-head h2{margin:0;font-size:1.6rem}
+
+.footer{
+  margin-top:3rem;padding:2rem 0;border-top:1px dashed rgba(255,255,255,.12); color:var(--muted);
+}
+img.responsive{max-width:100%;height:auto;border-radius:.8rem;border:1px solid rgba(255,255,255,.06);box-shadow:var(--shadow)}
+figure{margin:0}
+.kicker{font-size:.9rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+small, .small{font-size:.9rem;color:var(--muted)}

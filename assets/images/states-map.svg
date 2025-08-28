@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+<rect width='900' height='520' fill='#0f234c'/>
+<rect x='40' y='80' width='820' height='300' rx='12' fill='rgba(255,255,255,.06)' stroke='rgba(255,255,255,.2)'/>
+<text x='60' y='120' fill='#E6EEF9' font-size='22' font-family='Arial' font-weight='700'>Interactive VA Benefits by State (sample placeholder)</text>
+<text x='60' y='155' fill='#9FB3C8' font-size='16' font-family='Arial'>Click a state in the live site to view benefits.</text>
+</svg>

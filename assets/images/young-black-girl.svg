@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='800' height='480' viewBox='0 0 800 480'>
+<rect width='800' height='480' fill='#0f234c'/>
+<circle cx='120' cy='120' r='60' fill='#8d5a3a'/>
+<rect x='70' y='180' width='100' height='150' rx='14' fill='#1e88e5'/>
+<text x='220' y='120' fill='#E6EEF9' font-size='28' font-family='Arial' font-weight='700'>High School Tech Leader</text>
+<text x='220' y='160' fill='#9FB3C8' font-size='18' font-family='Arial'>STEM • Coding • ROTC • Drone Ops</text>
+</svg>
